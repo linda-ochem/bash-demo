@@ -12,7 +12,7 @@ import bodyParser from 'body-parser';
     try {
         console.debug("Initialize database connection...");
         await sequelize.authenticate();
-        console.log('Connection has been established successfully.');
+        console.log('Connection has been established successfully you can continue.');
     } catch (error) {
         console.error('Unable to connect too the database:', error);
     }

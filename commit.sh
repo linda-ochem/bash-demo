@@ -14,4 +14,4 @@ read BRANCH
 
 git checkout -B $BRANCH
 
-git push -u origin master
+git push -u origin $BRANCH
