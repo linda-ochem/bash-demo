@@ -2,6 +2,10 @@
 
 git add .
 
-git commit -m "second-commit"
+echo "What is your commit message"
+
+read MESSAGE
+
+git commit -m "$MESSAGE"
 
 git push -u origin master

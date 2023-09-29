@@ -14,7 +14,7 @@ import bodyParser from 'body-parser';
         await sequelize.authenticate();
         console.log('Connection has been established successfully.');
     } catch (error) {
-        console.error('Unable to connect to the database:', error);
+        console.error('Unable to connect 2 the database:', error);
     }
 
     // await sequelize.sync();
